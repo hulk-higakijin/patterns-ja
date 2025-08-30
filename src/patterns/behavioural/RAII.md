@@ -2,7 +2,8 @@
 
 ## 説明
 
-[RAII][wikipedia]は「Resource Acquisition is Initialisation（リソース取得は初期化）」
+[RAII][wikipedia]は「Resource Acquisition is
+Initialisation（リソース取得は初期化）」
 の略で、ひどい名前です。このパターンの本質は、リソースの初期化がオブジェクトの
 コンストラクタで行われ、最終化がデストラクタで行われることです。このパターンは
 Rustでは、RAIIオブジェクトをリソースのガードとして使用し、型システムに依存して

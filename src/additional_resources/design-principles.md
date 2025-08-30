@@ -19,7 +19,8 @@
 
 ## [CRP（合成再利用原則）またはコンポジション・オーバー・インヘリタンス](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 
-「クラスは、基底クラスや親クラスからの継承よりも、コンポジション（望ましい機能を実装する他のクラスのインスタンスを含むこと）によって多態的動作とコードの再利用を優先すべきである原則」 - Knoernschild, Kirk (2002). Java Design - Objects, UML, and Process
+「クラスは、基底クラスや親クラスからの継承よりも、コンポジション（望ましい機能を実装する他のクラスのインスタンスを含むこと）によって多態的動作とコードの再利用を優先すべきである原則」 -
+Knoernschild, Kirk (2002). Java Design - Objects, UML, and Process
 
 ## [DRY（Don't Repeat Yourself）](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
@@ -43,7 +44,8 @@
 
 ## [コマンド・クエリ分離 (CQS)](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation)
 
-「関数は抽象的な副作用を生じるべきではない...コマンド（手続き）のみが副作用を生じることが許される。」 - Bertrand Meyer: Object-Oriented Software Construction
+「関数は抽象的な副作用を生じるべきではない...コマンド（手続き）のみが副作用を生じることが許される。」 -
+Bertrand Meyer: Object-Oriented Software Construction
 
 ## [最小驚きの原則 (POLA)](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 
@@ -51,20 +53,25 @@
 
 ## 言語モジュラー単位
 
-「モジュールは、使用する言語の構文単位に対応しなければならない。」 - Bertrand Meyer: Object-Oriented Software Construction
+「モジュールは、使用する言語の構文単位に対応しなければならない。」 - Bertrand
+Meyer: Object-Oriented Software Construction
 
 ## 自己文書化
 
-「モジュールの設計者は、モジュールに関するすべての情報をモジュール自体の一部にするよう努めるべきである。」 - Bertrand Meyer: Object-Oriented Software Construction
+「モジュールの設計者は、モジュールに関するすべての情報をモジュール自体の一部にするよう努めるべきである。」 -
+Bertrand Meyer: Object-Oriented Software Construction
 
 ## 統一アクセス
 
-「モジュールが提供するすべてのサービスは、それらが記憶装置を通じて実装されているか計算を通じて実装されているかを明かさない統一された記法を通じて利用可能であるべきである。」 - Bertrand Meyer: Object-Oriented Software Construction
+「モジュールが提供するすべてのサービスは、それらが記憶装置を通じて実装されているか計算を通じて実装されているかを明かさない統一された記法を通じて利用可能であるべきである。」 -
+Bertrand Meyer: Object-Oriented Software Construction
 
 ## 単一選択
 
-「ソフトウェアシステムが一連の選択肢をサポートしなければならない場合は常に、システム内の唯一のモジュールがそれらの網羅的なリストを知っているべきである。」 - Bertrand Meyer: Object-Oriented Software Construction
+「ソフトウェアシステムが一連の選択肢をサポートしなければならない場合は常に、システム内の唯一のモジュールがそれらの網羅的なリストを知っているべきである。」 -
+Bertrand Meyer: Object-Oriented Software Construction
 
 ## 永続化クロージャ
 
-「記憶装置機構がオブジェクトを記憶する場合は常に、そのオブジェクトの依存物も一緒に記憶しなければならない。検索機構が以前に記憶されたオブジェクトを検索する場合は常に、まだ検索されていないそのオブジェクトの依存物も検索しなければならない。」 - Bertrand Meyer: Object-Oriented Software Construction
+「記憶装置機構がオブジェクトを記憶する場合は常に、そのオブジェクトの依存物も一緒に記憶しなければならない。検索機構が以前に記憶されたオブジェクトを検索する場合は常に、まだ検索されていないそのオブジェクトの依存物も検索しなければならない。」 -
+Bertrand Meyer: Object-Oriented Software Construction

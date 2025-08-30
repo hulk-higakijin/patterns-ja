@@ -124,6 +124,7 @@ curious has three consecutive vowels!
 ## 関連項目
 
 - [Rust言語リファレンス - 型強制](https://doc.rust-lang.org/reference/type-coercions.html)
-- `String`と`&str`の扱い方についてのさらなる議論については、Herman J. Radtke IIIによる
+- `String`と`&str`の扱い方についてのさらなる議論については、Herman J. Radtke
+  IIIによる
   [このブログシリーズ (2015)](https://web.archive.org/web/20201112023149/https://hermanradtke.com/2015/05/03/string-vs-str-in-rust-functions.html)を参照
 - [Steve Klabnikのブログポスト「いつStringと&strを使うべきか？」](https://archive.ph/LBpD0)

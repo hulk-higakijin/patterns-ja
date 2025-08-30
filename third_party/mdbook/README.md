@@ -4,4 +4,5 @@
 
 ## ライセンス
 
-mdBookはMozilla Public License v2.0（[LICENSE](LICENSE)）の下でライセンスされています。
+mdBookはMozilla Public License
+v2.0（[LICENSE](LICENSE)）の下でライセンスされています。

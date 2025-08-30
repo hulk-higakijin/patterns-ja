@@ -114,6 +114,7 @@ PRで`Allow edits of maintainers`（テキストボックスの下）を有効�
 このリポジトリは以下の人々によってメンテナンスされています：
 
 - [simonsan](https://github.com/simonsan)
-- [marcoieni](https://github.com/marcoieni) - MarcoはブックのCIのみを担当しています。
+- [marcoieni](https://github.com/marcoieni) -
+  MarcoはブックのCIのみを担当しています。
   ブックの内容をレビューせず、新しいイシューやプルリクエストの通知を受け取りません。
   CIの問題について見てもらいたい場合は、直接pingしてください。
