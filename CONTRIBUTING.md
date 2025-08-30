@@ -59,7 +59,7 @@
 
 書籍全体で一貫したスタイルを保つために、以下を提案します：
 
-- 公式Rustブックの[スタイルガイド](https://github.com/rust-lang/book/blob/master/style-guide.md)に従う
+- 公式Rustブックの[スタイルガイド](https://github.com/rust-lang/book/blob/main/style-guide.md)に従う
 - [RFC 1574](https://github.com/rust-lang/rfcs/blob/master/text/1574-more-api-documentation-conventions.md#appendix-a-full-conventions-text)に従う
   要約：
   - 完全な型名を優先する。例：`Option`ではなく`Option<T>`
