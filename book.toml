@@ -18,10 +18,10 @@ edition = "2021"
 [output.html]
 curly-quotes = true
 default-theme = "rust"
-site-url = "/patterns/"
-git-repository-url = "https://github.com/rust-unofficial/patterns"
+site-url = "/patterns-ja/"
+git-repository-url = "https://github.com/hulk-higakijin/patterns-ja"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/rust-unofficial/patterns/edit/main/{path}"
+edit-url-template = "https://github.com/hulk-higakijin/patterns-ja/edit/main/{path}"
 additional-css = [
   "./theme/css/language-picker.css",
   "./styles/last-changed.css",
@@ -47,6 +47,7 @@ editable = false
 
 [output.pandoc]
 optional = true
+enabled = false
 hosted-html = "https://rust-unofficial.github.io/patterns/"
 
 [output.pandoc.profile.pdf]
@@ -56,7 +57,7 @@ pdf-engine = "lualatex"
 [output.pandoc.profile.pdf.variables]
 mainfont = "Noto Serif"
 sansfont = "Noto Sans"
-monofont = "Noto Sans Mono"
+monofont = "Noto Sans Mono CJK JP"
 mainfontfallback = ["NotoSerifCJKSC:"]
 geometry = ["margin=1in"]
 linkcolor = "blue"
