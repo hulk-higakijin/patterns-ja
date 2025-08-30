@@ -17,11 +17,8 @@ concurrency:
 
 env:
   CARGO_TERM_COLOR: always
-  # TODO: Update the language picker in index.hbs to link new languages.
-  # TODO: As long as https://github.com/google/mdbook-i18n-helpers/issues/12 is not implemented, yet.
-  # TODO: Activate when first translation is available
   # These are the languages in addition to 'en', which is the main language
-  # LANGUAGES: xx
+  LANGUAGES: ja
 
 jobs:
   publish:
@@ -42,19 +39,21 @@ jobs:
       - name: Build course in English
         run: |
           mdbook build -d book
-          mv book/html/* book/pandoc/pdf/rust-design-patterns.pdf book/
-          rm -r book/html book/pandoc
+          if [ -f book/pandoc/pdf/rust-design-patterns.pdf ]; then
+            mv book/pandoc/pdf/rust-design-patterns.pdf book/
+          fi
+          mv book/html/* book/
+          rm -rf book/html book/pandoc
 
-      # TODO: Activate when first translation is available
-      # - name: Build all translations
-      #   run: |
-      #     for po_lang in ${{ env.LANGUAGES }}; do
-      #         echo "::group::Building $po_lang translation"
-      #         MDBOOK_BOOK__LANGUAGE=$po_lang \
-      #         MDBOOK_OUTPUT__HTML__SITE_URL=/patterns/$po_lang/ \
-      #         mdbook build -d book/$po_lang
-      #         echo "::endgroup::"
-      #     done
+      - name: Build all translations
+        run: |
+          for po_lang in ${{ env.LANGUAGES }}; do
+              echo "::group::Building $po_lang translation"
+              MDBOOK_BOOK__LANGUAGE=$po_lang \
+              MDBOOK_OUTPUT__HTML__SITE_URL=/patterns-ja/$po_lang/ \
+              mdbook build -d book/$po_lang
+              echo "::endgroup::"
+          done
 
       - name: Setup Pages
         id: pages
